@@ -1,0 +1,43 @@
+.coinmarketcap-currency-widget {
+    background-color: #ededed;
+    border-radius: 8px;
+}
+
+.poweredBy {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iframeCrypto {
+    width: 100%;
+    min-height: 470px;
+    border-radius: 8px;
+    transition: all 1s ease;
+}
+
+.iframeCrypto2 {
+    width: 100%;
+    min-height: 500px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.title2 {
+    font-size: 22px;
+}
+
+.crypto-title {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.divider {
+    width: 85%;
+    height: 1px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}

@@ -1,0 +1,77 @@
+.plan {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(112, 16, 16);
+    background: linear-gradient(0deg, rgba(112, 16, 16, 1) 0%, rgba(96, 115, 174, 0.95) 100%);
+}
+
+.splash {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(26, 85, 75);
+    background: linear-gradient(0deg, rgba(26, 85, 75, 1) 0%, rgba(125, 153, 200, 0.95) 100%);
+}
+
+.stronger {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(135, 48, 130);
+    background: linear-gradient(0deg, rgba(135, 48, 130, 1) 0%, rgba(196, 112, 101, 0.95) 100%);
+}
+
+.beijing {
+
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(2, 39, 46);
+    background: linear-gradient(0deg, rgba(2, 39, 46, 1) 0%, rgba(201, 197, 195, 0.95) 100%);
+}
+
+.soliterrien {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(64, 64, 64);
+    background: linear-gradient(0deg, rgba(64, 64, 64, 1) 0%, rgba(218, 218, 220, 0.95) 100%);
+}
+
+.rencontre {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(43, 43, 44);
+    background: linear-gradient(0deg, rgba(43, 43, 44, 1) 0%, rgba(242, 126, 0, 0.95) 100%);
+}
+
+.heatwaves {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(86, 183, 163);
+    background: linear-gradient(0deg, rgba(86, 183, 163, 1) 0%, rgba(176, 88, 200, 0.95) 100%);
+}
+
+.lofi {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(253, 68, 60);
+    background: linear-gradient(0deg, rgba(253, 68, 60, 1) 0%, rgba(29, 19, 17, 0.95) 100%);
+}
+
+.underscore_ {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(19,45,250);
+    background: linear-gradient(0deg, rgba(19,45,250,1) 0%, rgba(236,239,254,0.95) 100%);
+}
+
+.homehappy {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(19,29,31);
+    background: linear-gradient(0deg, rgba(19,29,31,1) 0%, rgba(213,176,107,0.95) 100%);
+}
+
+.codingmode {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(31,12,13);
+    background: linear-gradient(0deg, rgba(31,12,13,1) 0%, rgba(234,30,51,0.95) 100%);
+}

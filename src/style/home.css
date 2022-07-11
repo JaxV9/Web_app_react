@@ -1,0 +1,66 @@
+.presentation {
+    width: 100%;
+    height: 500px;
+}
+
+.profil {
+    background-image: url(../img/profil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentPresentation {
+    width: 100%;
+    height: 100%;
+    margin-top: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-align:left;
+    line-height: 120%;
+}
+
+.contenairStart {
+    height: 50px;
+}
+
+.start {
+    background-image: url(../img/start.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 72px;
+    height: 100%;
+}
+
+.contenairEnd {
+    height: 50px;
+}
+
+.end {
+    background-image: url(../img/end.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 72px;
+    height: 100%;
+    margin-left: 87%;
+}
+
+.contenairText {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.droits {
+    margin-top: 64px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+}

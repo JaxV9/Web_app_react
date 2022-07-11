@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../img/dark_alternate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+}
+
+.window {
+    min-width: 320px;
+    max-width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 0.5s ease;
+    display: grid;
+    grid-template-rows: 5% 95%;
+}
+.newBigWindow {
+    min-width: 320px;
+    max-width: 1400px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 0.5s ease;
+    display: grid;
+    grid-template-rows: 4% 96%;
+}
+
+.windowDrag {
+    min-width: 320px;
+    max-width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 28px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: grid;
+    grid-template-rows: 5% 95%;
+}
+
+.newCloseWindow {
+    transition: all 3s ease;
+    display: none;
+}
+
+.window-header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    background-color: #1C1E22;
+}
+
+.TestContent {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 8px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 55%;
+}
+
+.test_2 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 8px;
+}
+
+.test {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    background-color: red;
+}
+
+
+.window_inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    transition: all 0.5s ease;
+}
+
+.newWindowInner {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    transition: all 0.5s ease;
+}
+
+.column_left {
+    border-end-start-radius: 8px;
+    border-top: solid #929CB1 0.5px;
+    background: rgb(65,65,65);
+    background: linear-gradient(90deg, rgba(65,65,65,0.95) 0%, rgba(55,55,55,0.95) 100%);
+    transition: all 0.5s ease;
+}
+
+.column_right {
+    border-end-end-radius: 8px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 32px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    border-top: solid #929CB1 0.5px;
+    background-color: #1C1E22;
+    
+}
+
+.column_right::-webkit-scrollbar {
+    background-color: none;
+    border-radius: 8px;
+    width: 16px;
+}
+
+.column_right::-webkit-scrollbar-thumb {
+    background-color: #373737;
+    border-radius: 8px;
+}
+
+.addWindowBody {
+    display: none;
+}
+
+
+.newOpenWindow {
+    height: 120px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 256px;
+    border-radius: 8px;
+    background-color: #e1e1e113;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    text-align: center;
+}
+
+
+.newOpenWindow:hover {
+    box-shadow: none;
+    background-color: #ededed;
+    transition: all 0.5s ease;
+}
+
+.addWindow {
+    width: 100%;
+    height: 100%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 70px;
+  margin-top: 20%;
+  color: black;
+  transition: all 0.5s ease;
+}
+
+.addDarkModeBody {
+    height: 120px;
+    width: 120px;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 256px;
+    border-radius: 8px;
+    background-color: #e1e1e1;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+.close {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #f82f2fd7;
+    opacity: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%;
+    transition: all 0.1s ease;
+    
+}
+
+.close:hover {
+    width: 17px;
+    height: 17px;
+    background-color: #F82F2F;
+}
+
+.closeContainer > * {
+    vertical-align: middle;
+}
+
+.newClose {
+    background-color: black;
+}
+
+.hide {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: #dfe218b4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%;
+    transition: all 0.1s ease;
+}
+
+.hide:hover {
+    width: 17px;
+    height: 17px;
+    background: #DEE218;
+}
+
+.open {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: #2bce6cdb;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%;
+    transition: all 0.1s ease;
+}
+
+.open:hover {
+    width: 17px;
+    height: 17px;
+    background: #2BCE6C;
+}

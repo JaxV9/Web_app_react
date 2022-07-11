@@ -1,0 +1,80 @@
+.elements {
+    padding-left: 10%;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 2px;
+    transition: all 0.1s ease;
+    color: white;
+}
+
+.home {
+    background-image: url(../img/home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36px;
+    width: 32px;
+    opacity: 0.7;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.home:hover {
+    opacity: 1;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.elements:hover {
+    background-color: #ededed3b;
+    transition: all 0.5s ease;
+    font-size: 16.5px;
+}
+
+.elements a:hover {
+    text-decoration: none;
+    
+}
+
+
+.elements:hover .line {
+    width: 100%;
+}
+
+.line {
+    width: 70px;
+    height: 1.5px;
+    background-color: white;
+    display: block;
+    margin-top: 5px;
+    transition: all 1s ease;
+}
+
+.littleSpacer {
+    height: 24px;
+}
+
+.elementsClick {
+    padding-left: 10%;
+    padding-top: 32px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 2px;
+    transition: all 0.1s ease;
+    color: rgb(91, 160, 239);
+    background-color: #1C1E22;
+    transition: all 0.2s ease;
+    padding-bottom: 8px;
+}
+
+.elementsClick .line {
+    background-color: rgb(91, 160, 239);
+}

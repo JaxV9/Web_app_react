@@ -1,0 +1,262 @@
+.react-player {
+    margin-top: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-title {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 64px;
+}
+
+.slider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    align-items: stretch;
+    scroll-snap-type: x mandatory;
+    padding-left: 8px;
+}
+
+.slider::-webkit-scrollbar {
+	background-color: none;
+    border-radius: 8px;
+    width: 16px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    background: rgb(65,65,65);
+    background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(55,55,55,1) 100%);
+    border-radius: 8px;
+}
+
+.slider .slide {
+    flex-shrink: 0;
+    padding: 16px 0px 16px;
+    scroll-snap-align: center;
+    text-decoration: none;
+}
+
+.slider .slide:last-child {
+    padding-right: 20px;
+}
+
+.img {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/plan.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img2 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/splash.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img3 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/stronger.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img4 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/beijing.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img5 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/soliterrien.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img6 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/rencontre.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img7 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/heatwaves.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img01 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/lofi.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img02 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/under_score.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img03 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/home.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.img04 {
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/coding_mode.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.slideEnter {
+	background: rgb(65,65,65);
+    background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(55,55,55,1) 100%);
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    padding: 16px;
+	text-align: center;
+    margin-right: 0px;
+    text-decoration: none;
+}
+
+.slideEnter > h3 {
+    margin-top: 50px;
+    color: white;
+	font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.slideEnter:link {
+    text-decoration: none;
+}
+
+.containerIframe {
+    height: auto;
+    width: 100%;
+    padding-left: 8%;
+}
+
+.closeMusic {
+    background-image: url(../img/close.svg);
+    background-color: #f82f2f00;
+    border: none;
+    color: #716666;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    transition: all 0.2s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12px;
+    width: 12px;
+    opacity: 0.7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iframe {
+    border-radius: 8px;
+    position: relative;
+    transition: all 2s ease;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 5s ease-in-out;
+}
+
+.spacer {
+    height: 200px;
+}
+
+a, a:hover, a:visited, a:active
+{
+	text-decoration:none;
+}
+
+.closeiframe {
+    display: none;
+    transition: all 2s ease;
+    width: 0px;
+    height: 0px;
+}
+
+.containerClose {
+    width: 12px;
+    justify-content: end;
+    align-items: center;
+    margin-left: 80%;
+}
+
+.spacer2 {
+    height: 35%;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.spacer2big {
+    height: 45%;
+    transition: all 0.5s ease;
+}
