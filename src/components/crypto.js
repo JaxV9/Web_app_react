@@ -10,12 +10,12 @@ class Inbox extends Component {
         return (
             <>
                 <div className="title">
-                    <h1>Crypto News</h1>
+                    <h1>CRYPTO-MONNAIES</h1>
                     <span className="LineTitle"></span>
                 </div>
 
                 <div>
-                    <h2 className="crypto-title">Stock market price</h2>
+                    <h2 className="crypto-title">Cours de bourse</h2>
                 </div>
 
                 <iframe className="iframeCrypto" src="https://www.widgets.investing.com/top-cryptocurrencies?theme=darkTheme"
@@ -24,7 +24,7 @@ class Inbox extends Component {
                 <div className="divider"></div>
 
                 <div>
-                    <h2 className="crypto-title">Economic Calendar
+                    <h2 className="crypto-title">Calendrier économique
                     </h2>
                 </div>
 

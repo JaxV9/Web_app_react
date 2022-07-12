@@ -26,19 +26,19 @@ class ColumnLeft extends React.Component {
 
           <Link to="/note" className='link'>
             <div className="elements" id="elements0" onClick={FixElements0}>
-              Take notes
+              Notes
               <span className="line" />
             </div>
           </Link>
           <Link to="/inbox" className='link'>
             <div className="elements" id="elements1" onClick={FixElements1}>
-              Crypto
+              Crypto-monnaies
               <span className="line" />
             </div>
           </Link>
           <Link to="/music" className='link'>
             <div className="elements" id="elements2" onClick={FixElements2}>
-              Listen to music
+              Musiques
               <span className="line" />
             </div>
 
@@ -46,7 +46,7 @@ class ColumnLeft extends React.Component {
 
           <Link to="/flux-rss" className='link'>
             <div className="elements" id="elements3" onClick={FixElements3}>
-              RSS Feed
+              Fil d'actualités
               <span className="line" />
             </div>
 

@@ -21,11 +21,11 @@ class Music extends React.Component {
         return (
             <>
                 <div className="title">
-                    <h1>Music</h1>
+                    <h1>MUSIQUES</h1>
                     <span className="LineTitle"></span>
                 </div>
 
-                <h2 className="second-title">RECOMMENDATIONS</h2>
+                <h2 className="second-title">Nos recommandations</h2>
 
                 <div class="wrapper">
                     <div class="slider">
@@ -107,7 +107,7 @@ class Music extends React.Component {
                     </div>
                 </div>
 
-                <h2 className="second-title">PLAYLISTS</h2>
+                <h2 className="second-title">Playlists</h2>
 
                 <div class="wrapper">
                     <div class="slider">

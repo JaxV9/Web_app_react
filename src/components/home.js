@@ -8,7 +8,7 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <div className="title">
-          <h1>Home</h1>
+          <h1>Accueil</h1>
           <span className="LineTitle"></span>
         </div>
 
@@ -30,14 +30,6 @@ class Home extends React.Component {
               Par la suite, l'application sera mise à jour pour pouvoir être personnalisable à 100%.
               Vous pourrez choisir quel genre de widget, vous voulez avoir, avec des fonctionnalités supplémentaires !<br /><br />
               SEE YOU SOON !!<br />
-              _____________________<br /><br /><br />
-
-              This application aims to be a widget that centralizes different functions available on a laptop.<br /><br />
-              You can monitor the latest technology news, follow the price of cryptos or take notes on what you think is important.<br /><br />
-              Run the application in the background, listening to music while you work.<br /><br />
-              Later on, the application will be updated to be 100% customizable. You will be able to choose what kind of widget
-               you want to have, with additional features!<br /><br />
-               SEE YOU SOON !!<br />
 
 
             </div>

@@ -40,7 +40,7 @@ class Note extends React.Component {
     return (
       <React.Fragment>
         <div className="title" >
-          <h1>Notes</h1>
+          <h1>NOTES</h1>
           <span className="LineTitle"></span>
         </div>
 
@@ -55,7 +55,7 @@ class Note extends React.Component {
           ></textarea>
 
           <button type="submit" className="addBtn">
-            Save
+            Sauvegarder
           </button>
         </form>
 

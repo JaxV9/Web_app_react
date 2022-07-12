@@ -13,7 +13,7 @@ class RSS extends React.Component {
         return (
             <>
                 <div className="title">
-                    <h1>RSS Feed</h1>
+                    <h1>FIL D'ACTUALITÉS</h1>
                     <span className="LineTitle"></span>
                 </div>
 
