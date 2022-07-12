@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Web_app_react/static/css/main.6d613a72.css",
+    "main.js": "/Web_app_react/static/js/main.b9e90a56.js",
+    "static/media/dark_alternate.jpg": "/Web_app_react/static/media/dark_alternate.0914e7e12aeb2d6b5d77.jpg",
+    "static/media/profil.png": "/Web_app_react/static/media/profil.54eee50885afd2f89989.png",
+    "static/media/heatwaves.jfif": "/Web_app_react/static/media/heatwaves.ab62de92dc0242b61249.jfif",
+    "static/media/beijing.jfif": "/Web_app_react/static/media/beijing.14299251f5772d6cad39.jfif",
+    "static/media/home.jfif": "/Web_app_react/static/media/home.8320ec5460ccfb2d48e9.jfif",
+    "static/media/soliterrien.jfif": "/Web_app_react/static/media/soliterrien.ffba29e523481576bf56.jfif",
+    "static/media/lofi.jfif": "/Web_app_react/static/media/lofi.57d75cdab57e109a1233.jfif",
+    "static/media/rencontre.jfif": "/Web_app_react/static/media/rencontre.d9440a8580c03c19ab3e.jfif",
+    "static/media/coding_mode.jfif": "/Web_app_react/static/media/coding_mode.7aa1a96cdafc045e9d12.jfif",
+    "static/media/stronger.jfif": "/Web_app_react/static/media/stronger.f7ffd8e752630919e00c.jfif",
+    "static/media/under_score.jfif": "/Web_app_react/static/media/under_score.891450a27dd3f5f5082f.jfif",
+    "static/media/splash.jfif": "/Web_app_react/static/media/splash.e540b54877d8b11dba5d.jfif",
+    "static/media/plan.jfif": "/Web_app_react/static/media/plan.4e43fff6677b9222ed38.jfif",
+    "static/media/start.svg": "/Web_app_react/static/media/start.280f42c569ee0b89c9cf.svg",
+    "static/media/end.svg": "/Web_app_react/static/media/end.b29319677a3ad6e2c55e.svg",
+    "index.html": "/Web_app_react/index.html",
+    "static/media/delete_01.svg": "/Web_app_react/static/media/delete_01.f9e13bbcd7817aa486a2.svg",
+    "static/media/delete.svg": "/Web_app_react/static/media/delete.620cdda549dbfb862818.svg",
+    "static/media/close.svg": "/Web_app_react/static/media/close.7abeab11c9e534432dcc.svg",
+    "static/media/home.svg": "/Web_app_react/static/media/home.c123a00d09e06c4e976c.svg",
+    "main.6d613a72.css.map": "/Web_app_react/static/css/main.6d613a72.css.map",
+    "main.b9e90a56.js.map": "/Web_app_react/static/js/main.b9e90a56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d613a72.css",
+    "static/js/main.b9e90a56.js"
+  ]
+}
